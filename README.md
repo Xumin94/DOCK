@@ -1,8 +1,4 @@
-#!/usr/bin/bash --posix
-
-set -o posix
-
-# DOCKENV
+### set env
 
 # from dockenv/00readme
 # export DOCK_BASE=***pwd***
