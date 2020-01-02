@@ -1,0 +1,2 @@
+classification of GPCR, then choose some of them to analysis firstly.
+generate different poses for every ligand(20 poses) based on the structure of the protein(need special analysis), then filtering those bad pose.
