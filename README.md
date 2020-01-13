@@ -8,6 +8,11 @@ export LD_LIBRARY_PATH=$DOCK_BASE/bin/Linux:$LD_LIBRARY_PATH
 alias dockenvrun=$DOCK_BASE/dockenvrun
 
 export LD_LIBRARY_PATH=/home/xumin/opt/pgi/linux86/10.3/lib:$LD_LIBRARY_PATH
+
+change the options in the dock.in file: 
+* increase the number of steps of the amber_score minimization cycles and/or amber_score_md_steps
+* increase/decrease the amber_score_temperature
+* change the amber_score_movable_region, and rerun the calculation to see the change in results.
 **************************
 # DOCK3.7 [reference website:DOCK3.7 Documentation Wiki](https://sites.google.com/site/dock37wiki/)
 location: mxu@k168:/pubhome/mxu/DOCK3.7/DOCK-3.7-beta4
