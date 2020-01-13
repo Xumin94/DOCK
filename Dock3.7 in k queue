@@ -1,6 +1,6 @@
-**something need to pay more attention**
+something need to pay more attention
 
-* prepare dock file can not complete in mxu@x254 (manage node), but can finish in any compute node, such as mxu@k113.
+prepare dock file can not complete in mxu@x254 (manage node), but can finish in any compute node, such as mxu@k113.
 
 Notice: If metals in rec.pdb, the format should be like below:
 
