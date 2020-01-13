@@ -1,0 +1,8 @@
+**something need to pay more attention**
+
+* prepare dock file can not complete in mxu@x254 (manage node), but can finish in any compute node, such as mxu@k113.
+
+Notice: If metals in rec.pdb, the format should be like below:
+
+ATOM 2993 OG SER A 305 39.265 207.287 1.181 1.00121.33 O
+ATOM 2995 NA NA A2400 23.198 189.530 16.658 1.00 62.78 NA
