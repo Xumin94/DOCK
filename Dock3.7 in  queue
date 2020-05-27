@@ -7,4 +7,4 @@ something need to pay more attention
 ATOM 2993 OG SER A 305 39.265 207.287 1.181 1.00121.33 O
 ATOM 2995 NA NA A2400 23.198 189.530 16.658 1.00 62.78 NA
 
-3.when doing blastit can noly include rec.pdb and xtal-lig.pdb in the document. 
+3.when doing blast, it can only include rec.pdb and xtal-lig.pdb in the document. 
