@@ -1,0 +1,7 @@
+out_dir='/home/mxu02'
+url_prefix="http://zinc15.docking.org/substances.db2?zinc_id="
+
+#for zinc_id in $(cat $ism_file | awk 'NR>1{print $3}'); do
+for zinc_id in ZINC000034380900; do
+    wget -nv -O - "${url_prefix}${zinc_id}" | gzip - > ${out_dir}/${zinc_id}.db2.gz
+done
